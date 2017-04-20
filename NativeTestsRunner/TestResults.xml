@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<test-results time="1:04 PM" date="4/20/2017" name="UNNAMED" invalid="0" skipped="0" ignored="0" total="8" failures="0" errors="0" inconclusive="0" not-run="0">
+  <environment nunit-version="AllIn1Runner" machine-name="" platform="Editor" os-version="" clr-version="" user="" user-domain="" cwd="" />
+  <culture-info current-uiculture="" current-culture="" />
+  <test-suite name="NativeTests" result="" type="" executed="" success="true" time="0">
+    <results>
+      <test-case name="CollabSoftLocksManager.TwoUsersCanAddAndRetrieveSoftLocks" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="CollabSoftLocksManager.TwoUsersCanAddRetrieveSoftLocksOntheSameAssetGuid" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="BootConfigData.InitFromString_CanAddEmptyStringKeyValues" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="BootConfigData.InitFromString_CanAddKeysWithEmptyValue" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="GameObjectUtilityTests.CanAddorRemoveComponentTest" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="DynamicArray.DynamicArray_WithSIMDTypes_CanAddAndRemoveElements" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="VRTestMockTests.CanAddAndUpdateCustomTrackedDevice" result="Success" executed="true" time="0.000" success="true" />
+      <test-case name="VRTestMockTests.CanAddControllersWhichAreReturnedInOrderAdded" result="Success" executed="true" time="0.000" success="true" />
+    </results>
+  </test-suite>
+</test-results>

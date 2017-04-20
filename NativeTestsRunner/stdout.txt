@@ -1,0 +1,21 @@
+Launching executable, Debugging Time 13:04:47.2783437
+Launching executable: C:\unity\lane5\Tests\Unity.NativeTestsRunner\bin\UTRDebug_mono_xbuild\..\..\..\..\build\WindowsEditor\Unity.exe
+Successfully started MacroClientServer on port 9001
+Starting editor at: C:\unity\lane5\Tests\Unity.NativeTestsRunner\bin\UTRDebug_mono_xbuild\..\..\..\..\build\WindowsEditor\Unity.exe
+With arguments: -createProject "C:\Users\yan\AppData\Local\Temp\lkqqaejd.wrd With Spaces" -cleanTestPrefs -connectToMacroClient 9001 -batchmode -cleanedLogFile "C:\temp\arts\p1\Unity\log.txt" -forgetProjectPath -automated -runNativeTests CanAdd -nativeTestsCategory Unit Integration
+Started Unity.Automation.UnityEditorProcess with processid: 8100
+##unity-automation:{"messageType":"ProcessInfo","path":"C:\\unity\\lane5\\Tests\\Unity.NativeTestsRunner\\bin\\UTRDebug_mono_xbuild\\..\\..\\..\\..\\build\\WindowsEditor\\Unity.exe","arguments":"-createProject \"C:\\Users\\yan\\AppData\\Local\\Temp\\lkqqaejd.wrd With Spaces\" -cleanTestPrefs -connectToMacroClient 9001 -batchmode -cleanedLogFile \"C:\\temp\\arts\\p1\\Unity\\log.txt\" -forgetProjectPath -automated -runNativeTests CanAdd -nativeTestsCategory Unit Integration","status":1,"id":8100,"logs":["C:\\temp\\arts\\p1\\Unity\\log.txt"]}
+INFO: [blockOpened name='WaitingForFirstLogMessage']
+INFO: [blockClosed name='WaitingForFirstLogMessage']
+INFO: [blockOpened name='Processing log from process that is running the tests']
+Parsing logsegment of test: CollabSoftLocksManager.TwoUsersCanAddAndRetrieveSoftLocks
+Parsing logsegment of test: CollabSoftLocksManager.TwoUsersCanAddRetrieveSoftLocksOntheSameAssetGuid
+Parsing logsegment of test: BootConfigData.InitFromString_CanAddEmptyStringKeyValues
+Parsing logsegment of test: BootConfigData.InitFromString_CanAddKeysWithEmptyValue
+Parsing logsegment of test: GameObjectUtilityTests.CanAddorRemoveComponentTest
+Parsing logsegment of test: DynamicArray.DynamicArray_WithSIMDTypes_CanAddAndRemoveElements
+Parsing logsegment of test: VRTestMockTests.CanAddAndUpdateCustomTrackedDevice
+Parsing logsegment of test: VRTestMockTests.CanAddControllersWhichAreReturnedInOrderAdded
+Found AllTestsFinishedText in the log, stopping parsing the log
+INFO: [blockClosed name='Processing log from process that is running the tests']
+Published: C:\temp\arts\p1\NativeTestsRunner\TestResults.xml

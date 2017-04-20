@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+<ItemGroup>
+<TestProject Include="C:\unity\lane5\Tests\Unity.NativeTestsRunner\Unity.NativeTestsRunner.csproj">
+<OutputPath>C:\unity\lane5\Tests\Unity.NativeTestsRunner\bin\UTRDebug_mono_xbuild/</OutputPath>
+</TestProject>
+</ItemGroup>
+<Target Name="Build">
+<MSBuild Projects="@(TestProject)"
+Properties="Configuration=Debug;OutputPath=%(TestProject.OutputPath)/;OutDir=%(TestProject.OutputPath)/;BaseIntermediateOutputPath=C:\unity\lane5/Tests/bin/UTRDebug_Intermediate_mono_xbuild/"
+Targets="Build">
+</MSBuild>
+</Target>
+</Project>
+

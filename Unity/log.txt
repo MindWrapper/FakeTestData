@@ -1,0 +1,53 @@
+
+Test configuration:
+  DEBUGMODE: 1
+  UNITY_RELEASE: 1
+  UNITY_DEVELOPER_BUILD: 1
+  UNITY_EXTERNAL_TOOL: 0
+  ENABLE_PROFILER: 1
+  ENABLE_PLAYERCONNECTION: 1
+  ENABLE_UNIT_TESTS: 1
+  ENABLE_UNIT_TESTS_WITH_FAKES: 1
+  ENABLE_PERFORMANCE_TESTS: 1
+  ENABLE_ASSERTIONS: 1
+  ASSERT_SHOULD_BREAK: 0
+  USE_MEMORY_DEBUGGING: 0
+  SUPPORT_THREADS: 1
+
+Test initialization time: 0.339075 seconds.
+
+
+Starting Test:CollabSoftLocksManager.TwoUsersCanAddAndRetrieveSoftLocks
+
+Test Result:{"state":1,"name":"CollabSoftLocksManager.TwoUsersCanAddAndRetrieveSoftLocks","message":"","results":[],"time":0}
+
+Starting Test:CollabSoftLocksManager.TwoUsersCanAddRetrieveSoftLocksOntheSameAssetGuid
+
+Test Result:{"state":1,"name":"CollabSoftLocksManager.TwoUsersCanAddRetrieveSoftLocksOntheSameAssetGuid","message":"","results":[],"time":0}
+
+Starting Test:BootConfigData.InitFromString_CanAddEmptyStringKeyValues
+
+Test Result:{"state":1,"name":"BootConfigData.InitFromString_CanAddEmptyStringKeyValues","message":"","results":[],"time":0}
+
+Starting Test:BootConfigData.InitFromString_CanAddKeysWithEmptyValue
+
+Test Result:{"state":1,"name":"BootConfigData.InitFromString_CanAddKeysWithEmptyValue","message":"","results":[],"time":0}
+
+Starting Test:GameObjectUtilityTests.CanAddorRemoveComponentTest
+
+Test Result:{"state":1,"name":"GameObjectUtilityTests.CanAddorRemoveComponentTest","message":"","results":[],"time":0}
+
+Starting Test:DynamicArray.DynamicArray_WithSIMDTypes_CanAddAndRemoveElements
+
+Test Result:{"state":1,"name":"DynamicArray.DynamicArray_WithSIMDTypes_CanAddAndRemoveElements","message":"","results":[],"time":0}
+
+Starting Test:VRTestMockTests.CanAddAndUpdateCustomTrackedDevice
+
+Test Result:{"state":1,"name":"VRTestMockTests.CanAddAndUpdateCustomTrackedDevice","message":"","results":[],"time":0}
+
+Starting Test:VRTestMockTests.CanAddControllersWhichAreReturnedInOrderAdded
+
+Test Result:{"state":1,"name":"VRTestMockTests.CanAddControllersWhichAreReturnedInOrderAdded","message":"","results":[],"time":0}
+
+All Tests Finished
+

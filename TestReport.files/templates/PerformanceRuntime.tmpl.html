@@ -1,0 +1,47 @@
+<script type="text/ng-template" id="PerformanceRuntime.tmpl.html">
+	<div ng-show='false'>
+	</div>
+	<table class="table">
+		<tr>
+			<th>Test</th>
+			<th>Samples</th>
+		</tr>
+		<tr ng-repeat="test in suite.tests|filter:testFilter" ng-class='styleForTest (test.data.performanceTestResults.state)' />
+		<td width="60%">{{test.name}}
+			<div>
+				<a ng-click="isCollapsed = !isCollapsed">Show command line (to run this test locally)</a>
+				<div ng-hide="isCollapsed" select-on-click>
+					{{testCommandLine(suite, test)}}
+				</div>
+			</div>
+			<div ng-show="test.message">
+				<div><b>Message:</b></div>
+				<div class="formatted_text">{{test.message}}</div>
+			</div>
+			<div ng-show="test.stackTrace">
+				<div><b>Stack trace:</b></div>
+				<div class="formatted_text">{{test.stackTrace}}</div>
+			</div>
+			<div ng-show="test.reason">
+				<div><b>Reason:</b></div>
+				<div class="formatted_text">{{test.reason}}</div>
+			</div>
+		</td>
+		<td width="40%">
+			<table class="table">
+				<tr>
+					<th>SampleGroup</th>
+ 					<th>Previous revision</th>
+ 					<th>Current revision</th>
+ 					<th>Diff</th>
+				</tr>
+ 				<tr ng-repeat="medianSample in test.data.performanceTestResults.medianSamples">
+					<td>{{medianSample.sampleGroupName}}</td>
+					<td>{{medianSample.previousMedianValue}}</td>
+					<td>{{medianSample.currentMedianValue}}</td>
+					<td>{{medianSample.medianDiffValue}} </td>
+				</tr>
+			</table>
+		</td>
+	</table>
+</script>
